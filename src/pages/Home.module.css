@@ -1,0 +1,223 @@
+/* navbar */
+.navbar{
+  height: 9vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw;
+}
+.brandContainer{
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brandContainer img{
+  height: 80%;
+  width: auto;
+  border-radius: 30px;
+  margin-right: 1vw;
+}
+.brandContainer h2{
+  font-size: 3vh;
+}
+.menuContainer{
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menuContainer h5{
+  padding: 2vw;
+  font-size: 2.2vh;
+
+}
+.menuContainer button{
+  all: unset;
+  font-size: 2.2vh;
+  font-weight: bolder;
+  border: 2px solid;
+  background-color: white;
+  padding: 0.5vh 2vw;
+  margin-left: 1vw;
+}
+
+/* banner */
+.banner{
+  height: 50vh;
+  width: 100%;
+  background-image: url("../assets/banner.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.textContainer{
+  width: 39%;
+  height: fit-content;
+  position: absolute;
+  bottom: 12vh;
+  left: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: start;
+  /* background-color: rgba(254, 254, 254, 0.666); */
+}
+.textContainer h1{
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.348);
+  padding: 1vh;
+  border-radius: 3px;
+  font-size: 3vw;
+
+}
+.searchContainer{
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 4vh;
+}
+.search{
+  height: 100%;
+  width: 36%;
+  border: 1px solid rgba(0, 0, 0, 0.822);
+}
+.searchBtn{
+  height: 100%;
+  padding: 0 1vh;
+  background-color: rgba(0, 0, 0, 0.751);
+  color: white;
+  border: none;
+}
+
+/* gallery */
+.gallery{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 3.6vh;
+}
+.newsContainer{
+  height: fit-content;
+  width: 27vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.pictureContainer{
+  height: 16vw;
+  width: 100%;
+  margin-bottom: 0.5vh 0;
+}
+.pictureContainer img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.description{
+  height: fit-content;
+  margin: 0.5vh 0;
+}
+.description p{
+  margin: 0.5vh 0;
+}
+
+.bar{
+  display: block;
+  width: 30px;
+  height: 3.5px;
+  margin: 6px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000000;
+}
+
+/* screen => 980px */
+@media screen and (min-width:980px){
+  .hamburger {
+      display: none;
+  }
+}
+
+/* screen < 980px */
+@media screen and (max-width: 979px) {
+  .menuContainer{
+    display: none;
+  }
+  /* hamburger button */
+  .hamburger{
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.isActive .bar:nth-child(2){
+      opacity: 0;
+  }
+  .hamburger.isActive .bar:nth-child(1){
+      transform: translateY(9.5px) rotate(45deg); 
+  }
+  .hamburger.isActive .bar:nth-child(3){
+      transform: translateY(-9.5px) rotate(-45deg); 
+  }
+
+  /* banner */
+  .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .textContainer{
+    position: relative;
+    bottom: initial;
+    left: initial;
+    width: 80%;
+    height: auto;
+  }
+  .textContainer h1{
+    font-size: 5vw;
+  }
+  .searchContainer{
+    height: fit-content;
+    position: relative;
+    bottom: initial;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .search{
+    width: 80%;
+    height: 8vh;
+    margin-bottom: 1vh;
+  }
+  .searchBtn{
+    width: 80%;
+    height: 8vh;
+  }
+  /* gallery */
+  .gallery{
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsContainer{
+    width: 80vw;
+    margin-bottom: 2vh;
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+    border-image-slice: 1;
+  }
+  .pictureContainer{
+    height: 45vw;
+    width: 100%;
+    margin-bottom: 0.5vh 0;
+  }
+}
