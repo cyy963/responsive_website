@@ -88,6 +88,12 @@
   height: 100%;
   width: 36%;
   border: 1px solid rgba(0, 0, 0, 0.822);
+  font-size: 100%; 
+  padding: 1vh;
+}
+.search:focus {
+  outline: none;
+  border: 3px solid rgb(0, 0, 0);
 }
 .searchBtn{
   height: 100%;
