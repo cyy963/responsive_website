@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className={styles.menuContainer}>
           <h5>Latest</h5>
-          <h5>Markets</h5>
+          <h5>Weather</h5>
           <h5>Economy</h5>
           <button>Login</button>
         </div>

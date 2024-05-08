@@ -19,7 +19,6 @@
 .brandContainer img{
   height: 80%;
   width: auto;
-  border-radius: 30px;
   margin-right: 1vw;
 }
 .brandContainer h2{
@@ -113,6 +112,7 @@
   justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 3.6vh;
+  margin-bottom: 20px;
 }
 .newsContainer{
   height: fit-content;
