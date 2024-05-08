@@ -16,16 +16,19 @@ export default function Home() {
   };
   return (
     <div>
+      <div className={`${styles.overlay} ${isActive ? styles.isActive : ''}`} onClick={toggleHamburger}>
+      </div>
+      {/* navbar */}
       <div className={styles.navbar}>
         <div className={styles.brandContainer}>
           <img src={kiwiLogo}/>
           <h2>Kiwi Watch </h2>
         </div>
-        <div className={styles.menuContainer}>
+        <div className={`${styles.menuContainer} ${isActive ? styles.isActive : ''}`}>
           <h5>Latest</h5>
           <h5>Weather</h5>
           <h5>Economy</h5>
-          <button>Login</button>
+          <h5 className={styles.login}>Login</h5>
         </div>
         <div className={`${styles.hamburger} ${isActive ? styles.isActive : ''}`} onClick={toggleHamburger}>
             <span className={styles.bar}></span>
@@ -33,6 +36,7 @@ export default function Home() {
             <span className={styles.bar}></span>
         </div>
       </div>
+      {/* banner */}
       <div className={styles.banner}>
         <div className={styles.textContainer}>
           <h1>The Land of the Long White Cloud: Turning New Zealand’s Recovery into Sustained Growth</h1>
@@ -42,6 +46,7 @@ export default function Home() {
           <button className={styles.searchBtn}>SEARCH</button>
         </div>
       </div>
+      {/* gallery */}
       <div className={styles.gallery}>
         <div className={styles.newsContainer}>
           <div className={styles.pictureContainer}>
