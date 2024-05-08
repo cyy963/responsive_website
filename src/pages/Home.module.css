@@ -203,17 +203,17 @@
     position: relative;
     bottom: initial;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .search{
     width: 80%;
-    height: 8vh;
-    margin-bottom: 1vh;
+    height: 60px;
+    margin-bottom: 10px;
   }
   .searchBtn{
     width: 80%;
-    height: 8vh;
+    height: 60px;
   }
   /* gallery */
   .gallery{
