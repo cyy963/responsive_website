@@ -110,7 +110,7 @@
 }
 .search:focus {
   outline: none;
-  border: 3px solid forestgreen;
+  border: 2px solid forestgreen;
 }
 .searchBtn{
   height: 100%;
