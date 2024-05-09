@@ -219,9 +219,6 @@
     transition: 0.5s ease-in-out;
 
     background-color: #ffffff;
-    border-top: 2px solid;
-    border-image-source: radial-gradient(rgb(12, 123, 23), rgb(255, 255, 255));
-    border-image-slice: 1;
   }
   .menuContainer.isActive{
     top: 80px;
@@ -232,7 +229,7 @@
     margin: 0;
     padding: 25px !important;
 
-    border-top: 2px solid;
+    border-bottom: 2px solid;
     border-image-source: radial-gradient(rgb(12, 123, 23), rgb(255, 255, 255));
     border-image-slice: 1;
   }
