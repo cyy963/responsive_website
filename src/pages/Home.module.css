@@ -102,7 +102,7 @@
 }
 .search:focus {
   outline: none;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid forestgreen;
 }
 .searchBtn{
   height: 100%;
@@ -110,6 +110,9 @@
   background-color: rgba(0, 0, 0, 0.751);
   color: white;
   border: none;
+}
+.searchBtn:hover{
+  color: forestgreen;
 }
 
 /* gallery */
