@@ -7,6 +7,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background-color: white;
 }
 .brandContainer{
   height: 100%;
@@ -17,9 +21,9 @@
   cursor: pointer;
 }
 .brandContainer img{
-  height: 80%;
+  height: 77%;
   width: auto;
-  margin-right: 1vw;
+  margin-right: 10px;
 }
 .brandContainer h2{
   font-size: 1.8rem;
