@@ -63,6 +63,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  /* padding-top: 15px; */
 }
 .textContainer{
   width: 39%;
