@@ -116,6 +116,7 @@
   background-color: rgba(0, 0, 0, 0.751);
   color: white;
   border: none;
+  font-weight: 600;
 }
 .searchBtn:hover{
   color: forestgreen;

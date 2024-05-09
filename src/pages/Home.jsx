@@ -42,7 +42,7 @@ export default function Home() {
           <h1>The Land of the Long White Cloud: Turning New Zealand’s Recovery into Sustained Growth</h1>
         </div>
         <div  className={styles.searchContainer}>
-          <input className={styles.search}></input>
+          <input className={styles.search} placeholder="Search for something..."></input>
           <button className={styles.searchBtn}>SEARCH</button>
         </div>
       </div>
