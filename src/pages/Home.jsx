@@ -31,9 +31,9 @@ export default function Home() {
           <h5 className={styles.login}>Login</h5>
         </div>
         <div className={`${styles.hamburger} ${isActive ? styles.isActive : ''}`} onClick={toggleHamburger}>
-            <span className={styles.bar}></span>
-            <span className={styles.bar}></span>
-            <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
         </div>
       </div>
       {/* banner */}
