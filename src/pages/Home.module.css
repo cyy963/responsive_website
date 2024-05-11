@@ -104,9 +104,11 @@
 .search{
   height: 100%;
   width: 36%;
-  border: 1px solid rgba(0, 0, 0, 0.822);
-  font-size: 100%; 
-  padding: 1vh;
+  border: 2px solid rgba(0, 0, 0, 0.822);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  font-size: 105%; 
+  padding-left: 12px;
 }
 .search:focus {
   outline: none;
@@ -118,6 +120,8 @@
   background-color: rgba(0, 0, 0, 0.751);
   color: white;
   border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   font-weight: 600;
 }
 .searchBtn:hover{
@@ -279,11 +283,16 @@
     width: 80%;
     height: 60px;
     margin-bottom: 10px;
+    border-radius: 2px;
+    font-size: 125%; 
+    text-align: center;
   }
   .searchBtn{
     width: 80%;
     height: 60px;
     font-size: 100%;
+    border-radius: 2px;
+
   }
 
   /* gallery */
