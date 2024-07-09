@@ -1,40 +1,33 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/cyy963/MR-lvl5-mission0">
-    <img src="./src/assets/kiwi-logo.png" alt="Logo" width="80" height="80">
-  </a>
+# Responsive Design
 
-<h3 align="center">Mission 0</h3>
+## Description
 
-  <p align="center">
-    digital news home page template
-    <br />
-    <a href="https://github.com/cyy963/MR-lvl5-mission0"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/cyy963/MR-lvl5-mission0">View Demo</a>
-    ·
-    <a href="https://github.com/cyy963/MR-lvl5-mission0/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/cyy963/MR-lvl5-mission0/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
-</div>
+This project, developed as part of a Mission Ready course, demonstrates a responsive website design concept for a hypothetical website. It focuses on utilizing modern front-end techniques to achieve responsiveness and dynamic styling.
 
 
-### Built With
+## Features
 
-* [![React][React.js]][React-url]
+- **Responsive Design:** Leveraged `clamps` and employed `media queries` for adapting layouts across different screen sizes.
+- **Navbar:** Implemented a collapsing navbar that transitions to a hamburger menu on smaller screens.
+- **Dynamic Styling:** Utilized `CSS variables` and `color-mix` for dynamic and customizable color blending.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Technologies Used
 
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
+![CSS Variables](https://img.shields.io/badge/CSS_Variables-Utilized-purple)
+![Media Queries](https://img.shields.io/badge/Media_Queries-Implemented-green)
+![Container Queries](https://img.shields.io/badge/Container_Queries-Used-yellow)
+![Color Mix](https://img.shields.io/badge/Color_Mix-Integrated-orange)
 
-<!-- GETTING STARTED -->
-### Prerequisites
+## Prerequisites
 
-*react
+![Node](https://img.shields.io/badge/Node.js-16.0.0-green)
+![npm](https://img.shields.io/badge/npm-8.0.0-red)
 
-### Installation
+- Node.js (v16 or later)
+- npm (v8 or later) or yarn (v1.22 or later)
+
+## Installation
 
 1. Clone the repo
    ```sh
@@ -44,23 +37,12 @@
    ```sh
    npm install
    ```
-3. Run the project
+3. Run the project locally
    ```sh
    npm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
-## Contact
-
-Cyrus Wen - cyrusw89@gmail.com
-
-Project Link: [https://github.com/cyy963/MR-lvl5-mission0](https://github.com/cyy963/MR-lvl5-mission0)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
