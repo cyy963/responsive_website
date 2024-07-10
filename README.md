@@ -15,7 +15,6 @@ This project, developed as part of a Mission Ready course, demonstrates a respon
 ![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)
 ![CSS Variables](https://img.shields.io/badge/CSS_Variables-Utilized-purple)
 ![Media Queries](https://img.shields.io/badge/Media_Queries-Implemented-green)
-![Container Queries](https://img.shields.io/badge/Container_Queries-Used-yellow)
 
 ## Prerequisites
 
