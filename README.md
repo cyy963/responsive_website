@@ -2,13 +2,13 @@
 
 ## Description
 
-This project, developed as part of a Mission Ready course, demonstrates a responsive website design concept for a hypothetical website. It focuses on utilizing modern front-end techniques to achieve responsiveness and dynamic styling.
+This project, developed as part of a Mission Ready course, demonstrates a responsive website design template for a marketing agency whose client is a digital news media company. It focuses on utilizing modern front-end techniques to achieve responsiveness and dynamic styling.
 
 
 ## Features
 
 - **Responsive Design:** Leveraged `clamps` and employed `media queries` for adapting layouts across different screen sizes.
-- **Navbar:** Implemented a collapsing navbar that transitions to a hamburger menu on smaller screens.
+- **Navbar:** Implemented a navbar that includes a transforming hamburger menu on smaller screens.
 
 ## Technologies Used
 
